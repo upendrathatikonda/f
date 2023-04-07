@@ -10,30 +10,42 @@ header .headereddiv{
 	
 }
 .container{
-	padding:2%;
 	border-bottom:2px solid blue;
-	width:80%;
+	width:90%;
 }
 
 .item{
 	background:black;
-height:auto;
-	margin:10%;
-	top:100px;
+	width:50%;
+	top:0px;
+	margin:auto;
 	position:sticky;
-	width:auto;
+	margin-bottom: 20px;
 	border-radius:8px;
 	box-shadow:10px 10px 50px 10px blue;
+	padding:25px;
+	
 }
+
+
 .item img{
-	margin:2px;
 	width:100%;
-	height:50%;
+	height:0px;
 	border-radius:5px;
+	margin-top: 0px;
+	align-content:center;
+	padding:0px;
 }
 
 
 
+:hover.item img{
+	margin:0px;
+	width:100%;
+	height:auto;
+	border-radius:5px;
+	align-content:center;
+}
 
 
 
@@ -64,10 +76,10 @@ height:auto;
 	width:90%;
 	margin:auto;
 	margin-bottom:20px;
-	padding:2%;
+	padding:0%;
 	border-radius:10px;
 	border:2px solid blue;
-	background-color:rgba(16,56,255,0.4);
+	background-color:rgb(242, 240, 247);
 	color:#8950ff;
 	text-align:center;
 }
@@ -89,7 +101,7 @@ h3{
 	font-size: large;
 }
 #p1 ,#p2 {
-	color:#b9e648;
+	color:rgb(16, 236, 104);
 	font-size:medium;
 
 }
@@ -100,12 +112,12 @@ h3{
                     .asided{
                         width:40%;
                         padding-left: 3px;
-                        
+                        top:10px;
                         float:right;						
                         font-style:oblique;
                         background-color: #8b171732;
 						border-left:2px solid blue;
-						position:absolute;
+						position:sticky;
 						color:blue;
                     }
                
